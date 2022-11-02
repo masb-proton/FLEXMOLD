@@ -17,7 +17,9 @@ namespace FlexMold
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmSplashScreen());
+            //Application.Run(new FrmSplashScreen());
+            Application.Run(new FrmHome());
+
         }
     }
 }

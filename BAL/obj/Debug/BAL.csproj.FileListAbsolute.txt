@@ -16,3 +16,14 @@ E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\BAL\bin\Debug\Prop
 E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\BAL\obj\Debug\BAL.csprojResolveAssemblyReference.cache
 E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\BAL\obj\Debug\BAL.dll
 E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\BAL\obj\Debug\BAL.pdb
+C:\Projects\Ibrahim-FlexMold-KURVATUR\FLEXMOLD-main\FLEXMOLD-main-2017\BAL\bin\Debug\BAL.dll
+C:\Projects\Ibrahim-FlexMold-KURVATUR\FLEXMOLD-main\FLEXMOLD-main-2017\BAL\bin\Debug\BAL.pdb
+C:\Projects\Ibrahim-FlexMold-KURVATUR\FLEXMOLD-main\FLEXMOLD-main-2017\BAL\bin\Debug\DAL.dll
+C:\Projects\Ibrahim-FlexMold-KURVATUR\FLEXMOLD-main\FLEXMOLD-main-2017\BAL\bin\Debug\Propert_Utility.dll
+C:\Projects\Ibrahim-FlexMold-KURVATUR\FLEXMOLD-main\FLEXMOLD-main-2017\BAL\bin\Debug\DAL.pdb
+C:\Projects\Ibrahim-FlexMold-KURVATUR\FLEXMOLD-main\FLEXMOLD-main-2017\BAL\bin\Debug\Propert_Utility.pdb
+C:\Projects\Ibrahim-FlexMold-KURVATUR\FLEXMOLD-main\FLEXMOLD-main-2017\BAL\obj\Debug\BAL.csprojAssemblyReference.cache
+C:\Projects\Ibrahim-FlexMold-KURVATUR\FLEXMOLD-main\FLEXMOLD-main-2017\BAL\obj\Debug\BAL.csproj.CoreCompileInputs.cache
+C:\Projects\Ibrahim-FlexMold-KURVATUR\FLEXMOLD-main\FLEXMOLD-main-2017\BAL\obj\Debug\BAL.csproj.CopyComplete
+C:\Projects\Ibrahim-FlexMold-KURVATUR\FLEXMOLD-main\FLEXMOLD-main-2017\BAL\obj\Debug\BAL.dll
+C:\Projects\Ibrahim-FlexMold-KURVATUR\FLEXMOLD-main\FLEXMOLD-main-2017\BAL\obj\Debug\BAL.pdb
