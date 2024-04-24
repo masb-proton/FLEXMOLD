@@ -1,0 +1,203 @@
+<?xml version="1.0"?>
+<TcSmProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4024.35">
+	<DataTypes>
+		<DataType>
+			<Name GUID="{81EAA5A8-BCC4-EB3F-D4F3-16706C4B57CF}" IecBaseType="true" AutoDeleteType="true">ARRAY [1..1] OF REAL</Name>
+			<BitSize>32</BitSize>
+			<BaseType GUID="{18071995-0000-0000-0000-00000000000D}">REAL</BaseType>
+			<ArrayInfo>
+				<LBound>1</LBound>
+				<Elements>1</Elements>
+			</ArrayInfo>
+		</DataType>
+		<DataType>
+			<Name GUID="{6E2E0A17-C443-3678-826C-865BF760D870}" IecBaseType="true" AutoDeleteType="true">ARRAY [1..1] OF DWORD</Name>
+			<BitSize>32</BitSize>
+			<BaseType GUID="{18071995-0000-0000-0000-000000000007}">DWORD</BaseType>
+			<ArrayInfo>
+				<LBound>1</LBound>
+				<Elements>1</Elements>
+			</ArrayInfo>
+		</DataType>
+		<DataType>
+			<Name GUID="{18071995-0000-0000-0000-002000000007}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..6] OF BIT</Name>
+			<BitSize>7</BitSize>
+			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
+			<ArrayInfo>
+				<LBound>0</LBound>
+				<Elements>7</Elements>
+			</ArrayInfo>
+		</DataType>
+	</DataTypes>
+	<Project ProjectGUID="{D5711828-C43F-40E2-A726-023F2CA30EC4}" Target64Bit="true" ShowHideConfigurations="#x106">
+		<System>
+			<Tasks>
+				<Task Id="3" Priority="20" CycleTime="100000" AmsPort="350" AdtTasks="true">
+					<Name>PlcTask</Name>
+				</Task>
+			</Tasks>
+		</System>
+		<Plc>
+			<Project GUID="{BB45762C-F3DD-4C24-910F-E80CC79364ED}" Name="PlcGenerated" PrjFilePath="PlcGenerated\PlcGenerated.plcproj" TmcFilePath="PlcGenerated\PlcGenerated.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcHash="{3E935C03-2E7E-1628-1A31-C24671C3DCD5}">
+					<Name>PlcGenerated Instance</Name>
+					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
+					<Vars VarGrpType="1">
+						<Name>PlcTask Inputs</Name>
+						<Var>
+							<Name>MAIN.mPosition</Name>
+							<Type GUID="{81EAA5A8-BCC4-EB3F-D4F3-16706C4B57CF}">ARRAY [1..1] OF REAL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.mTemperature</Name>
+							<Type GUID="{6E2E0A17-C443-3678-826C-865BF760D870}">ARRAY [1..1] OF DWORD</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.MotorDiagnostic</Name>
+							<Type GUID="{6E2E0A17-C443-3678-826C-865BF760D870}">ARRAY [1..1] OF DWORD</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.DeviceStatus</Name>
+							<Type GUID="{6E2E0A17-C443-3678-826C-865BF760D870}">ARRAY [1..1] OF DWORD</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.mDiag3</Name>
+							<Type GUID="{6E2E0A17-C443-3678-826C-865BF760D870}">ARRAY [1..1] OF DWORD</Type>
+						</Var>
+					</Vars>
+					<Vars VarGrpType="2" AreaNo="1">
+						<Name>PlcTask Outputs</Name>
+						<Var>
+							<Name>MAIN.device[1].mDirection</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.device[1].mRPM</Name>
+							<Type>REAL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.device[1].mDisplacement</Name>
+							<Type>REAL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.device[1].mTime</Name>
+							<Type>REAL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.device[1].mRampDelay</Name>
+							<Type>REAL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.device[1].mMode</Name>
+							<Type>DWORD</Type>
+						</Var>
+					</Vars>
+					<Contexts>
+						<Context>
+							<Id NeedCalleeCall="true">0</Id>
+							<Name>PlcTask</Name>
+							<ManualConfig>
+								<OTCID>#x02010030</OTCID>
+							</ManualConfig>
+							<Priority>20</Priority>
+							<CycleTime>10000000</CycleTime>
+						</Context>
+					</Contexts>
+					<TaskPouOids>
+						<TaskPouOid Prio="20" OTCID="#x08502001"/>
+					</TaskPouOids>
+				</Instance>
+			</Project>
+		</Plc>
+		<Io>
+			<Device Id="1" DevType="111" DevFlags="#x0003" AmsPort="28673" AmsNetId="192.168.18.153.2.1" RemoteName="Device_1" InfoImageId="2">
+				<Name>Device_1</Name>
+				<AddressInfo>
+					<Pnp>
+						<DeviceDesc>Ethernet (TwinCAT-Intel PCI Ethernet Adapter (Gigab</DeviceDesc>
+						<DeviceName>\DEVICE\{7D0700E9-6DF3-4BF3-88A6-52AE6DAF8ADF}</DeviceName>
+						<DeviceData>40b034ff8bf6</DeviceData>
+					</Pnp>
+				</AddressInfo>
+				<Image Id="1" AddrType="9" ImageType="3">
+					<Name>Image</Name>
+				</Image>
+				<Box Id="1" BoxType="9099" BoxFlags="#x00000020">
+					<Name>Box 1 (LAN9255_EtherCAT_Slave)</Name>
+					<ImageId>65</ImageId>
+					<EtherCAT SlaveType="2" PdiType="#x0e82" MboxDataLinkLayer="true" StateMBoxPolling="true" CycleMBoxPollingTime="0" CoeType="35" FoeType="1" VendorId="#x00006100" ProductCode="#x00009255" RevisionNo="#x00000001" InfoDataAddr="true" PortPhys="17" MaxSlotCount="256" MaxSlotGroupCount="1" SlotPdoIncrement="1" SlotIndexIncrement="16" Type="LAN9255_EtherCAT_Slave" Desc="LAN9255_EtherCAT_Slave" PortABoxInfo="#x00ffffff">
+						<SyncMan>001080002600010001000000000000008000001026010000</SyncMan>
+						<SyncMan>801080002200010002000000000000008000801022010000</SyncMan>
+						<SyncMan>001115006400010003000000000000001500001164010000</SyncMan>
+						<SyncMan>001414002000010004000000000000001400001420010000</SyncMan>
+						<Fmmu>0000000000000000001100020100000001000000000000000000000000000000</Fmmu>
+						<Fmmu>0000000000000000001400010100000002000000000000000000000000000000</Fmmu>
+						<Fmmu>00000000000000000d0800010100000003000000000000000000000000000000</Fmmu>
+						<BootStrapData>0010800080108000</BootStrapData>
+						<DcMode>53796e6368726f6e000000000000000053796e6368726f6e000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000</DcMode>
+						<DcMode>444300000000000000000000000000004443000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000030100000000000000000000000000000000000000000000000000000000000000</DcMode>
+						<Pdo Name="Inputs process data mapping" Index="#x1a00" Flags="#x0011" SyncMan="3">
+							<Entry Name="Position" Index="#x6000" Sub="#x01">
+								<Type>REAL</Type>
+							</Entry>
+							<Entry Name="Temperature" Index="#x6000" Sub="#x02">
+								<Type>REAL</Type>
+							</Entry>
+							<Entry Name="MotorDiagnostic" Index="#x6000" Sub="#x03">
+								<Type>UDINT</Type>
+							</Entry>
+							<Entry Name="DeviceStatus" Index="#x6000" Sub="#x04">
+								<Type>UDINT</Type>
+							</Entry>
+							<Entry Name="Diag3" Index="#x6000" Sub="#x05">
+								<Type>UDINT</Type>
+							</Entry>
+						</Pdo>
+						<Pdo Name="Outputs process data mapping" Index="#x1601" InOut="1" Flags="#x0011" SyncMan="2">
+							<Entry Name="RPM" Index="#x7010" Sub="#x01">
+								<Type>REAL</Type>
+							</Entry>
+							<Entry Name="Displacement" Index="#x7010" Sub="#x02">
+								<Type>REAL</Type>
+							</Entry>
+							<Entry Name="Time" Index="#x7010" Sub="#x03">
+								<Type>REAL</Type>
+							</Entry>
+							<Entry Name="RampDelay" Index="#x7010" Sub="#x04">
+								<Type>REAL</Type>
+							</Entry>
+							<Entry Name="Mode" Index="#x7010" Sub="#x05">
+								<Type>UDINT</Type>
+							</Entry>
+							<Entry Name="Direction" Index="#x7010" Sub="#x06">
+								<Type>BIT</Type>
+							</Entry>
+							<Entry Name="E0000:00">
+								<Type GUID="{18071995-0000-0000-0000-002000000007}">ARRAY [0..6] OF BIT</Type>
+							</Entry>
+						</Pdo>
+					</EtherCAT>
+				</Box>
+				<EtherCAT/>
+			</Device>
+		</Io>
+	</Project>
+	<Mappings>
+		<MappingInfo Identifier="{00000000-2001-0850-0020-500810000403}" Id="#x02030010"/>
+		<OwnerA Name="TIPC^PlcGenerated^PlcGenerated Instance">
+			<OwnerB Name="TIID^Device_1^Box 1 (LAN9255_EtherCAT_Slave)">
+				<Link VarA="PlcTask Inputs^MAIN.DeviceStatus" VarB="Inputs process data mapping^DeviceStatus" AutoLink="true"/>
+				<Link VarA="PlcTask Inputs^MAIN.MotorDiagnostic" VarB="Inputs process data mapping^MotorDiagnostic" AutoLink="true"/>
+				<Link VarA="PlcTask Inputs^MAIN.mDiag3" VarB="Inputs process data mapping^Diag3" AutoLink="true"/>
+				<Link VarA="PlcTask Inputs^MAIN.mPosition" VarB="Inputs process data mapping^Position" AutoLink="true"/>
+				<Link VarA="PlcTask Inputs^MAIN.mTemperature" VarB="Inputs process data mapping^Temperature" AutoLink="true"/>
+				<Link VarA="PlcTask Outputs^MAIN.device[1].mDirection" VarB="Outputs process data mapping^Direction" AutoLink="true"/>
+				<Link VarA="PlcTask Outputs^MAIN.device[1].mDisplacement" VarB="Outputs process data mapping^Displacement" AutoLink="true"/>
+				<Link VarA="PlcTask Outputs^MAIN.device[1].mMode" VarB="Outputs process data mapping^Mode" AutoLink="true"/>
+				<Link VarA="PlcTask Outputs^MAIN.device[1].mRPM" VarB="Outputs process data mapping^RPM" AutoLink="true"/>
+				<Link VarA="PlcTask Outputs^MAIN.device[1].mRampDelay" VarB="Outputs process data mapping^RampDelay" AutoLink="true"/>
+				<Link VarA="PlcTask Outputs^MAIN.device[1].mTime" VarB="Outputs process data mapping^Time" AutoLink="true"/>
+			</OwnerB>
+		</OwnerA>
+	</Mappings>
+</TcSmProject>

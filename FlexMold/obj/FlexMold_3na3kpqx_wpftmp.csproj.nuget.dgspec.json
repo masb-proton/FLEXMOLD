@@ -1,0 +1,308 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projects\\GitHub\\FlexMold_Project\\flexmold-zlaserByMASB\\FlexMold.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects\\GitHub\\FlexMold_Project\\flexmold-zlaserByMASB\\FlexMold.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\GitHub\\FlexMold_Project\\flexmold-zlaserByMASB\\FlexMold.csproj",
+        "projectName": "FlexMold",
+        "projectPath": "D:\\Projects\\GitHub\\FlexMold_Project\\flexmold-zlaserByMASB\\FlexMold.csproj",
+        "packagesPath": "C:\\Users\\AFFAN\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\GitHub\\FlexMold_Project\\flexmold-zlaserByMASB\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\AFFAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "D:\\Projects\\GitHub\\FlexMold_Project\\Flexmold_libs\\NlogViewer\\NlogViewer.csproj": {
+                "projectPath": "D:\\Projects\\GitHub\\FlexMold_Project\\Flexmold_libs\\NlogViewer\\NlogViewer.csproj"
+              },
+              "D:\\Projects\\GitHub\\FlexMold_Project\\Flexmold_libs\\ScriptingTestContainerBase\\ScriptingTestContainerBase.csproj": {
+                "projectPath": "D:\\Projects\\GitHub\\FlexMold_Project\\Flexmold_libs\\ScriptingTestContainerBase\\ScriptingTestContainerBase.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Beckhoff.TwinCAT.Ads": {
+              "target": "Package",
+              "version": "[6.1.154, )"
+            },
+            "DataGridExtensions": {
+              "target": "Package",
+              "version": "[2.5.15, )"
+            },
+            "Humanizer": {
+              "target": "Package",
+              "version": "[2.14.1, )"
+            },
+            "MahApps.Metro": {
+              "target": "Package",
+              "version": "[2.4.10, )"
+            },
+            "MahApps.Metro.IconPacks": {
+              "target": "Package",
+              "version": "[4.11.0, )"
+            },
+            "MaterialDesignThemes.MahApps": {
+              "target": "Package",
+              "version": "[0.3.0, )"
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.4.421302, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "NLog.Schema": {
+              "target": "Package",
+              "version": "[5.2.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "StructPacker": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            },
+            "Sylvan.Data.Csv": {
+              "target": "Package",
+              "version": "[1.3.2, )"
+            },
+            "ToastNotifications.Messages": {
+              "target": "Package",
+              "version": "[2.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.110\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\GitHub\\FlexMold_Project\\Flexmold_libs\\NlogViewer\\NlogViewer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\GitHub\\FlexMold_Project\\Flexmold_libs\\NlogViewer\\NlogViewer.csproj",
+        "projectName": "NlogViewer",
+        "projectPath": "D:\\Projects\\GitHub\\FlexMold_Project\\Flexmold_libs\\NlogViewer\\NlogViewer.csproj",
+        "packagesPath": "C:\\Users\\AFFAN\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\GitHub\\FlexMold_Project\\Flexmold_libs\\NlogViewer\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\AFFAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Humanizer.Core": {
+              "target": "Package",
+              "version": "[2.14.1, )"
+            },
+            "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.4.355802, )"
+            },
+            "Microsoft.Windows.Compatibility": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.110\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\GitHub\\FlexMold_Project\\Flexmold_libs\\ScriptingTestContainerBase\\ScriptingTestContainerBase.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\GitHub\\FlexMold_Project\\Flexmold_libs\\ScriptingTestContainerBase\\ScriptingTestContainerBase.csproj",
+        "projectName": "ScriptingTestContainerBase",
+        "projectPath": "D:\\Projects\\GitHub\\FlexMold_Project\\Flexmold_libs\\ScriptingTestContainerBase\\ScriptingTestContainerBase.csproj",
+        "packagesPath": "C:\\Users\\AFFAN\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\GitHub\\FlexMold_Project\\Flexmold_libs\\ScriptingTestContainerBase\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\AFFAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.4.410601, )"
+            },
+            "Microsoft.VisualStudio.Setup.Configuration.Interop": {
+              "target": "Package",
+              "version": "[3.5.2145, )"
+            },
+            "Microsoft.Win32.Registry": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "envdte": {
+              "target": "Package",
+              "version": "[17.5.33428.366, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.110\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

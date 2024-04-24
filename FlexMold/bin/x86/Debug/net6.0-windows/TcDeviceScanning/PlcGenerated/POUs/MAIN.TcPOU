@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <POU Name="MAIN" Id="{012e2a8f-a953-4093-ab6f-4d52f6340762}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN 
+VAR CONSTANT 
+deviceCount : WORD := 1; 
+END_VAR 
+VAR 
+{attribute 'TcLinkTo' := 'TIID^Device_1^Inputs^DevState'}
+SlaveCount AT%I* : UINT; 
+foe_sAmsNetId: T_AmsNetId :='192.168.18.153.2.1';
+foe_sAmsPort: ARRAY[1..deviceCount] OF UINT :=[1001];
+fbDownload : FB_EcFoeLoad ;
+foe_dwPass     : DWORD := 0; // 287454020
+foe_nSlaveAddr : UINT := 0;
+foe_eMode      : E_EcFoeMode := eFoeMode_Write;
+foe_sPathName : STRING := '';
+foe_bLoad      : BOOL;
+foe_bBusy      : BOOL;
+foe_bError     : BOOL;
+foe_nErrID     : UDINT;
+foe_nBytesWritten : UDINT;
+foe_nPercent      : UDINT;
+
+fbSetSlaveState: FB_EcSetSlaveState;
+ecs_bExecute   : BOOL; 
+ecs_reqState   : WORD; 
+ecs_bBusy     : BOOL;
+ecs_bError    : BOOL;
+ecs_nErrId    : UDINT;
+ecs_currState : ST_EcSlaveState;
+fbGetSlaveState : FB_EcGetSlaveState;
+state           : ST_EcSlaveState;ecg_bExecute : BOOL;ecg_bError          : BOOL;ecg_nErrId          : UDINT;
+fbGetAllSlaveStates : FB_EcGetAllSlaveStates;
+    ECAbExecute            : BOOL;
+    ECAdevStates           : ARRAY[1..deviceCount] OF ST_EcSlaveState;
+    ECAnSlaves             : UINT := 0;
+    ECAbError              : BOOL;
+    ECAnErrId              : UDINT;
+END_VAR]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[fbDownload( bExecute := foe_bLoad,
+		sNetId  := foe_sAmsNetId,
+		nSlaveAddr := foe_nSlaveAddr,
+		dwPass  := foe_dwPass,
+		sPathName  := foe_sPathName, 
+        bBusy => foe_bBusy,
+        bError => foe_bError,
+        nErrId => foe_nErrID,
+        cbLoad => foe_nBytesWritten,
+        nProgress => foe_nPercent );
+fbSetSlaveState(
+	sNetId := foe_sAmsNetId,
+	nSlaveAddr := foe_nSlaveAddr,
+	bExecute := ecs_bExecute,
+	reqState := ecs_reqState, 
+	nErrId =>ecs_nErrId, 
+	bBusy=> ecs_bBusy, 
+	bError=>ecs_bError
+);
+fbGetSlaveState(sNetId:= foe_sAmsNetId, nSlaveAddr:= foe_nSlaveAddr, bExecute:=ecg_bExecute);
+state := fbGetSlaveState.state;
+ ecg_bError := fbGetSlaveState.bError;
+ ecg_nErrId := fbGetSlaveState.nErrId;
+fbGetAllSlaveStates(sNetId:= foe_sAmsNetId, pStateBuf := ADR(ECAdevStates), cbBufLen:=SIZEOF(ECAdevStates), bExecute:=ECAbExecute);
+ECAnSlaves := fbGetAllSlaveStates.nSlaves;
+ECAbError := fbGetAllSlaveStates.bError;
+ECAnErrId := fbGetAllSlaveStates.nErrId;]]></ST>
+    </Implementation>
+    <LineIds Name="MAIN">
+      <LineId Id="42" Count="25" />
+      <LineId Id="2" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>

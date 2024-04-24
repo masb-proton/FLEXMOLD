@@ -1,0 +1,18 @@
+2024-04-23 05:46:30.6239|INFO|Machine Selection|FlexMold.MVVM.ViewModel.SplashScreenViewModel..ctor|Flexmold application loading
+2024-04-23 05:46:30.9940|INFO|Machine Selection|FlexMold.MVVM.ViewModel.SplashScreenViewModel..ctor|4 Machines Found
+2024-04-23 05:46:54.8877|INFO|Machine Selection|FlexMold.MVVM.ViewModel.SplashScreenViewModel..ctor|Closing ....
+2024-04-23 05:51:15.1193|INFO|Machine Selection|FlexMold.MVVM.ViewModel.SplashScreenViewModel..ctor|Flexmold application loading
+2024-04-23 05:51:15.5240|INFO|Machine Selection|FlexMold.MVVM.ViewModel.SplashScreenViewModel..ctor|4 Machines Found
+2024-04-23 05:51:19.2062|INFO|Device Status|FlexMold.Utility.FlexMoldDB.InitializeFlexMoldDB|Database connected successfully!
+2024-04-23 05:51:19.2062|INFO|Machine Selection|FlexMold.MVVM.ViewModel.SplashScreenViewModel.MachineSelectMethod|Building Machine Script
+2024-04-23 05:51:20.7504|INFO|TwinCat|FlexMold.Utility.TwinCathelper.TwinCatConnect851|Connecting to Local Host, Port : 851
+2024-04-23 05:51:21.1797|INFO|TwinCat|FlexMold.Utility.TwinCathelper.TwinCatConnect851|Connected to : 192.168.18.153.1.1:851, Port : 851
+2024-04-23 05:51:21.1797|INFO|TwinCat|FlexMold.Utility.TwinCathelper.GetPLCVariables|Fetching PLC Variables
+2024-04-23 05:51:21.3015|ERROR|TwinCat|FlexMold.Utility.TwinCathelper.GetPLCVariables|No Symbol Found...
+2024-04-23 05:51:21.3015|INFO|TwiCAT Builder|FlexMold.MVVM.ViewModel.SplashScreenViewModel.set_ProgressStatuses|DeviceSymbolNotFound
+TwinCAT Script is not running or TwinCAT is in Config mode 
+Please Start/Restart TwinCAT serivce or Build TwinCAT Solution from FCA 
+
+2024-04-23 05:51:21.3015|INFO|TwinCat|FlexMold.Utility.TwinCathelper.TwinCatDiconnectConnect851|DisConnecting to Local Host, Port : 851
+2024-04-23 05:51:21.3886|INFO|Machine Selection|FlexMold.MVVM.ViewModel.SplashScreenViewModel.GetPriviledgeUp|Logged In as Normal user!
+2024-04-23 05:52:06.1929|INFO|Machine Selection|FlexMold.MVVM.ViewModel.SplashScreenViewModel..ctor|Closing ....

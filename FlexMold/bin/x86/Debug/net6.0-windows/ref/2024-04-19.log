@@ -1,0 +1,697 @@
+2024-04-19 15:47:23.7412|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.GetSlaveMachineState|Writing ECAbExecute : 1
+2024-04-19 15:47:23.7412|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.GetSlaveMachineState|Readed ECAbError : false
+2024-04-19 15:47:23.7531|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.GetSlaveMachineState|Readed ECAdevStates : "CAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAA=="
+2024-04-19 15:47:23.7531|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.GetSlaveMachineState|Writing ECAbExecute : 0
+2024-04-19 15:47:26.7551|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.GetSlaveMachineState|Writing ECAbExecute : 1
+2024-04-19 15:47:26.7551|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.GetSlaveMachineState|Readed ECAbError : false
+2024-04-19 15:47:26.7551|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.GetSlaveMachineState|Readed ECAdevStates : "CAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAA=="
+2024-04-19 15:47:26.7551|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.GetSlaveMachineState|Writing ECAbExecute : 0
+2024-04-19 15:47:27.1834|WARN|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel..ctor|Resuming Motors
+2024-04-19 15:47:27.1834|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|16,006~15,997~16,028~16,011~16,005~15,996~16,037~16,012~24,126~24,113~24,125~24,111~24,119~24,108~24,117~24,111~32,203~32,207~32,197~32,211~32,205~32,178~32,204~32,221~40,281~40,273~40,261~40,284~40,265~40,246~40,283~40,294~48,415~48,406~48,403~48,38~48,387~48,423~48,395~48,355~56,507~56,484~56,502~56,512~56,51~56,522~56,457~56,507~64,685~64,63~64,579~64,601~64,648~64,659~64,613~64,653~72,744~72,684~72,766~72,725~72,771~72,73~72,732~72,797~80,886~80,86~80,884~80,833~80,863~80,798~80,856~80,918~88,996~88,923~89,003~88,986~89,002~88,987~89,06~89,094
+
+2024-04-19 15:47:27.1834|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Saving CSV/Motors data for Resume Process
+2024-04-19 15:47:27.1834|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming111>>> 80 >>16,006
+2024-04-19 15:47:27.1834|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 16,006
+2024-04-19 15:47:27.1834|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.1834|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 16,006
+2024-04-19 15:47:27.1834|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.1834|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:0 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.1834|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 15,997
+2024-04-19 15:47:27.1834|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 15,997
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:1 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 16,028
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 16,028
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:2 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 16,011
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 16,011
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:3 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 16,005
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 16,005
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:4 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 15,996
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 15,996
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:5 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 16,037
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 16,037
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:6 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 16,012
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 16,012
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:7 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 24,126
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 24,126
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:8 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 24,113
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 24,113
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:9 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 24,125
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 24,125
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:10 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 24,111
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 24,111
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:11 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 24,119
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 24,119
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:12 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 24,108
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 24,108
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:13 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 24,117
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 24,117
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:14 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 24,111
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 24,111
+2024-04-19 15:47:27.1899|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:15 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 32,203
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 32,203
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:16 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 32,207
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 32,207
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:17 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 32,197
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 32,197
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:18 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 32,211
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 32,211
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:19 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 32,205
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 32,205
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:20 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 32,178
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 32,178
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:21 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 32,204
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 32,204
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:22 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 32,221
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 32,221
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:23 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 40,281
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 40,281
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:24 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 40,273
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 40,273
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:25 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 40,261
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 40,261
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:26 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 40,284
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 40,284
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:27 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 40,265
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 40,265
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:28 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 40,246
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 40,246
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:29 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 40,283
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 40,283
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:30 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 40,294
+2024-04-19 15:47:27.2063|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 40,294
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:31 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 48,415
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 48,415
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:32 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 48,406
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 48,406
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:33 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 48,403
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 48,403
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:34 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 48,38
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 48,38
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:35 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 48,387
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 48,387
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:36 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 48,423
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 48,423
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:37 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 48,395
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 48,395
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:38 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 48,355
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 48,355
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:39 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 56,507
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 56,507
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:40 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 56,484
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 56,484
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:41 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 56,502
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 56,502
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:42 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 56,512
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 56,512
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:43 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 56,51
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 56,51
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:44 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 56,522
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 56,522
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:45 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 56,457
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 56,457
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:46 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 56,507
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 56,507
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:47 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 64,685
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 64,685
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:48 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 64,63
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 64,63
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2208|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:49 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 64,579
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 64,579
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:50 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 64,601
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 64,601
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:51 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 64,648
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 64,648
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:52 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 64,659
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 64,659
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:53 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 64,613
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 64,613
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:54 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 64,653
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 64,653
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:55 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 72,744
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 72,744
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:56 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 72,684
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 72,684
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:57 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 72,766
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 72,766
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:58 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 72,725
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 72,725
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:59 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 72,771
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 72,771
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:60 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 72,73
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 72,73
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:61 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 72,732
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 72,732
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:62 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 72,797
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 72,797
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:63 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 80,886
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 80,886
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:64 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 80,86
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 80,86
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2368|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:65 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 80,884
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 80,884
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:66 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 80,833
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 80,833
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:67 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 80,863
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 80,863
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:68 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 80,798
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 80,798
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:69 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 80,856
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 80,856
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:70 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 80,918
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 80,918
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:71 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 88,996
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 88,996
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:72 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 88,923
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 88,923
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:73 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 89,003
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 89,003
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:74 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 88,986
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 88,986
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:75 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 89,002
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 89,002
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:76 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 88,987
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 88,987
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:77 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 89,06
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 89,06
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:78 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999>>> 89,094
+
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999222>>> 
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming1223339999333>>> 89,094
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Resuming12233399996666>>> 
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumingMotor_writeCV:79 : 0  >> Direction: False  >> RampDlay: 2  >> MotorTime: 110  >> mMode: 5
+2024-04-19 15:47:27.2518|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing SymbolEthercatDevice : "AAAAAAAAAABKDIBBgZVtQgAAAEAFAAAAAAAAAAAAAAC2839BgZVtQgAAAEAFAAAAAAAAAAAAAABYOYBBgZVtQgAAAEAFAAAAAAAAAAAAAACHFoBBgZVtQgAAAEAFAAAAAAAAAAAAAAA9CoBBgZVtQgAAAEAFAAAAAAAAAAAAAACe739BgZVtQgAAAEAFAAAAAAAAAAAAAADHS4BBgZVtQgAAAEAFAAAAAAAAAAAAAACTGIBBgZVtQgAAAEAFAAAAAAAAAAAAAAAMAsFBgZVtQgAAAEAFAAAAAAAAAAAAAABt58BBgZVtQgAAAEAFAAAAAAAAAAAAAAAAAMFBgZVtQgAAAEAFAAAAAAAAAAAAAABU48BBgZVtQgAAAEAFAAAAAAAAAAAAAAC288BBgZVtQgAAAEAFAAAAAAAAAAAAAAAv3cBBgZVtQgAAAEAFAAAAAAAAAAAAAACe78BBgZVtQgAAAEAFAAAAAAAAAAAAAABU48BBgZVtQgAAAEAFAAAAAAAAAAAAAADfzwBCgZVtQgAAAEAFAAAAAAAAAAAAAAD40wBCgZVtQgAAAEAFAAAAAAAAAAAAAAC6yQBCgZVtQgAAAEAFAAAAAAAAAAAAAAAQ2ABCgZVtQgAAAEAFAAAAAAAAAAAAAADs0QBCgZVtQgAAAEAFAAAAAAAAAAAAAABGtgBCgZVtQgAAAEAFAAAAAAAAAAAAAADl0ABCgZVtQgAAAEAFAAAAAAAAAAAAAABO4gBCgZVtQgAAAEAFAAAAAAAAAAAAAAC+HyFCgZVtQgAAAEAFAAAAAAAAAAAAAACNFyFCgZVtQgAAAEAFAAAAAAAAAAAAAABECyFCgZVtQgAAAEAFAAAAAAAAAAAAAADRIiFCgZVtQgAAAEAFAAAAAAAAAAAAAABcDyFCgZVtQgAAAEAFAAAAAAAAAAAAAADn+yBCgZVtQgAAAEAFAAAAAAAAAAAAAADLISFCgZVtQgAAAEAFAAAAAAAAAAAAAAAOLSFCgZVtQgAAAEAFAAAAAAAAAAAAAAD2qEFCgZVtQgAAAEAFAAAAAAAAAAAAAAC+n0FCgZVtQgAAAEAFAAAAAAAAAAAAAACsnEFCgZVtQgAAAEAFAAAAAAAAAAAAAAAfhUFCgZVtQgAAAEAFAAAAAAAAAAAAAABKjEFCgZVtQgAAAEAFAAAAAAAAAAAAAAAnsUFCgZVtQgAAAEAFAAAAAAAAAAAAAAB7lEFCgZVtQgAAAEAFAAAAAAAAAAAAAACFa0FCgZVtQgAAAEAFAAAAAAAAAAAAAAArB2JCgZVtQgAAAEAFAAAAAAAAAAAAAACe72FCgZVtQgAAAEAFAAAAAAAAAAAAAAAMAmJCgZVtQgAAAEAFAAAAAAAAAAAAAABKDGJCgZVtQgAAAEAFAAAAAAAAAAAAAAA9CmJCgZVtQgAAAEAFAAAAAAAAAAAAAACHFmJCgZVtQgAAAEAFAAAAAAAAAAAAAAD402FCgZVtQgAAAEAFAAAAAAAAAAAAAAArB2JCgZVtQgAAAEAFAAAAAAAAAAAAAAC4XoFCgZVtQgAAAEAFAAAAAAAAAAAAAACPQoFCgZVtQgAAAEAFAAAAAAAAAAAAAABzKIFCgZVtQgAAAEAFAAAAAAAAAAAAAAC2M4FCgZVtQgAAAEAFAAAAAAAAAAAAAADHS4FCgZVtQgAAAEAFAAAAAAAAAAAAAABoUYFCgZVtQgAAAEAFAAAAAAAAAAAAAADbOYFCgZVtQgAAAEAFAAAAAAAAAAAAAABWToFCgZVtQgAAAEAFAAAAAAAAAAAAAADufJFCgZVtQgAAAEAFAAAAAAAAAAAAAAA1XpFCgZVtQgAAAEAFAAAAAAAAAAAAAAAxiJFCgZVtQgAAAEAFAAAAAAAAAAAAAAAzc5FCgZVtQgAAAEAFAAAAAAAAAAAAAADBipFCgZVtQgAAAEAFAAAAAAAAAAAAAADDdZFCgZVtQgAAAEAFAAAAAAAAAAAAAADJdpFCgZVtQgAAAEAFAAAAAAAAAAAAAAAQmJFCgZVtQgAAAEAFAAAAAAAAAAAAAACixaFCgZVtQgAAAEAFAAAAAAAAAAAAAABSuKFCgZVtQgAAAEAFAAAAAAAAAAAAAACcxKFCgZVtQgAAAEAFAAAAAAAAAAAAAAB/qqFCgZVtQgAAAEAFAAAAAAAAAAAAAADbuaFCgZVtQgAAAEAFAAAAAAAAAAAAAACTmKFCgZVtQgAAAEAFAAAAAAAAAAAAAABGtqFCgZVtQgAAAEAFAAAAAAAAAAAAAAAE1qFCgZVtQgAAAEAFAAAAAAAAAAAAAAD0/bFCgZVtQgAAAEAFAAAAAAAAAAAAAACT2LFCgZVtQgAAAEAFAAAAAAAAAAAAAACJAbJCgZVtQgAAAEAFAAAAAAAAAAAAAADV+LFCgZVtQgAAAEAFAAAAAAAAAAAAAAAGAbJCgZVtQgAAAEAFAAAAAAAAAAAAAABY+bFCgZVtQgAAAEAFAAAAAAAAAAAAAAC4HrJCgZVtQgAAAEAFAAAAAAAAAAAAAAAhMLJCgZVtQgAAAEAFAAAA"
+2024-04-19 15:47:27.2518|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|80 csv value(s) has been written sucessfully
+2024-04-19 15:47:27.4679|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.4679|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.4710|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.4710|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.4710|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.4710|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.4710|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.4710|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.4710|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.4710|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.4710|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.4710|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.4882|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.4882|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.4882|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.4882|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.4882|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.4882|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.4882|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.4882|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 4.01355
+2024-04-19 15:47:27.4882|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.4882|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5021|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5021|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5021|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5021|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5021|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5021|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5021|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5021|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5021|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5021|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5182|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5182|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5182|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5182|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5182|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5182|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5182|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5182|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5182|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5330|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5330|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5330|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5330|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5330|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5330|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5330|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5330|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5330|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5330|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5330|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5330|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5491|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5491|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5491|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5491|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5491|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5491|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5491|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5491|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5761|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5761|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5803|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5803|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5803|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5803|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5803|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5803|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5803|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5803|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5803|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5803|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5803|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5803|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5962|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5962|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5962|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5962|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5962|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5962|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mDisplacement : "AAAAAA=="
+2024-04-19 15:47:27.5962|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|80 zero value(s) has been written sucessfully
+2024-04-19 15:47:27.5962|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|ResumeProcess_WriteCSVData222>>>>progressbar_FinalValAt least one object must implement IComparable.
+2024-04-19 15:47:27.5962|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.ResumeProcess_WriteCSVData|Deleting Resume File!
+2024-04-19 15:47:27.6983|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 4.024597
+2024-04-19 15:47:27.8979|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 4.0408325
+2024-04-19 15:47:28.0976|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 4.062866
+2024-04-19 15:47:28.2979|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 4.0897217
+2024-04-19 15:47:28.4979|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 4.1228027
+2024-04-19 15:47:28.6982|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 4.161316
+2024-04-19 15:47:28.8982|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 4.206238
+2024-04-19 15:47:29.0984|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 4.2547607
+2024-04-19 15:47:29.2982|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 4.3101196
+2024-04-19 15:47:29.4984|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 4.3652954
+2024-04-19 15:47:29.6982|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 4.421692
+2024-04-19 15:47:29.7693|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.GetSlaveMachineState|Writing ECAbExecute : 1
+2024-04-19 15:47:29.7693|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.GetSlaveMachineState|Readed ECAbError : false
+2024-04-19 15:47:29.7693|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.GetSlaveMachineState|Readed ECAdevStates : "CAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAA=="
+2024-04-19 15:47:29.7693|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.GetSlaveMachineState|Writing ECAbExecute : 0
+2024-04-19 15:47:29.8982|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 4.477661
+2024-04-19 15:47:30.0979|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 4.5335693
+2024-04-19 15:47:30.2979|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 4.5889893
+2024-04-19 15:47:30.4978|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 4.6446533
+2024-04-19 15:47:30.6977|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 4.7007446
+2024-04-19 15:47:30.8977|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 4.755188
+2024-04-19 15:47:31.0978|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 4.810913
+2024-04-19 15:47:31.2979|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 4.866272
+2024-04-19 15:47:31.4978|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 4.9212036
+2024-04-19 15:47:31.6978|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 4.975342
+2024-04-19 15:47:31.8979|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 5.0307007
+2024-04-19 15:47:32.0979|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 5.086853
+2024-04-19 15:47:32.2982|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 5.1415405
+2024-04-19 15:47:32.4978|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 5.19812
+2024-04-19 15:47:32.6977|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 5.2545776
+2024-04-19 15:47:32.7872|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.GetSlaveMachineState|Writing ECAbExecute : 1
+2024-04-19 15:47:32.7991|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.GetSlaveMachineState|Readed ECAbError : false
+2024-04-19 15:47:32.7991|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.GetSlaveMachineState|Readed ECAdevStates : "CAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAA=="
+2024-04-19 15:47:32.7991|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.GetSlaveMachineState|Writing ECAbExecute : 0
+2024-04-19 15:47:32.8978|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 5.3112183
+2024-04-19 15:47:33.0978|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 5.3670044
+2024-04-19 15:47:33.2979|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 5.4228516
+2024-04-19 15:47:33.4981|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 5.479126
+2024-04-19 15:47:33.6978|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 5.5339355
+2024-04-19 15:47:33.8984|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 5.590515
+2024-04-19 15:47:34.0983|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 5.6467896
+2024-04-19 15:47:34.2987|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 5.701721
+2024-04-19 15:47:34.4980|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 5.7577515
+2024-04-19 15:47:34.6986|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 5.8134766
+2024-04-19 15:47:34.8984|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 5.869507
+2024-04-19 15:47:35.0979|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 5.923584
+2024-04-19 15:47:35.2982|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 5.979004
+2024-04-19 15:47:35.4980|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 6.034485
+2024-04-19 15:47:35.6979|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 6.0894165
+2024-04-19 15:47:35.8021|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.GetSlaveMachineState|Writing ECAbExecute : 1
+2024-04-19 15:47:35.8021|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.GetSlaveMachineState|Readed ECAbError : false
+2024-04-19 15:47:35.8021|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.GetSlaveMachineState|Readed ECAdevStates : "CAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAA=="
+2024-04-19 15:47:35.8021|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.GetSlaveMachineState|Writing ECAbExecute : 0
+2024-04-19 15:47:35.8979|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 6.145874
+2024-04-19 15:47:36.0977|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 6.2020264
+2024-04-19 15:47:36.2977|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 6.258728
+2024-04-19 15:47:36.4977|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 6.31427
+2024-04-19 15:47:36.6978|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 6.3710938
+2024-04-19 15:47:36.8977|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 6.427307
+2024-04-19 15:47:37.0978|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 6.4818726
+2024-04-19 15:47:37.2978|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 6.538025
+2024-04-19 15:47:37.4983|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 6.594055
+2024-04-19 15:47:37.6978|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 6.6505127
+2024-04-19 15:47:37.8983|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 6.704956
+2024-04-19 15:47:38.0982|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 6.760742
+2024-04-19 15:47:38.2978|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 6.8148804
+2024-04-19 15:47:38.4985|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 6.8704224
+2024-04-19 15:47:38.6983|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 6.9258423
+2024-04-19 15:47:38.8283|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.GetSlaveMachineState|Writing ECAbExecute : 1
+2024-04-19 15:47:38.8375|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.GetSlaveMachineState|Readed ECAbError : false
+2024-04-19 15:47:38.8375|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.GetSlaveMachineState|Readed ECAdevStates : "CAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAA=="
+2024-04-19 15:47:38.8375|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.GetSlaveMachineState|Writing ECAbExecute : 0
+2024-04-19 15:47:38.8982|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 6.980591
+2024-04-19 15:47:39.0976|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 7.036377
+2024-04-19 15:47:39.2978|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 7.0906982
+2024-04-19 15:47:39.4976|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 7.147339
+2024-04-19 15:47:39.6977|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 7.2025146
+2024-04-19 15:47:39.8984|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 7.258972
+2024-04-19 15:47:40.0984|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 7.315735
+2024-04-19 15:47:40.2979|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 7.3710938
+2024-04-19 15:47:40.4982|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 7.4277344
+2024-04-19 15:47:40.6978|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 7.4834595
+2024-04-19 15:47:40.8978|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 7.538452
+2024-04-19 15:47:41.0983|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 7.5947876
+2024-04-19 15:47:41.2977|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 7.651184
+2024-04-19 15:47:41.4978|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 7.7076416
+2024-04-19 15:47:41.6983|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 7.762207
+2024-04-19 15:47:41.8392|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.GetSlaveMachineState|Writing ECAbExecute : 1
+2024-04-19 15:47:41.8461|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.GetSlaveMachineState|Readed ECAbError : false
+2024-04-19 15:47:41.8461|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.GetSlaveMachineState|Readed ECAdevStates : "CAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAA=="
+2024-04-19 15:47:41.8461|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.GetSlaveMachineState|Writing ECAbExecute : 0
+2024-04-19 15:47:41.8979|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 7.817993
+2024-04-19 15:47:42.0978|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 7.873657
+2024-04-19 15:47:42.2977|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 7.9283447
+2024-04-19 15:47:42.4977|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 7.9835815
+2024-04-19 15:47:42.6978|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 8.039185
+2024-04-19 15:47:42.8978|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 8.093811
+2024-04-19 15:47:42.9281|WARN|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel..ctor|Stopping Motors
+2024-04-19 15:47:42.9281|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9281|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9281|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9281|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9281|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9281|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9281|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9401|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9401|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9401|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9401|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9401|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9401|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9401|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9401|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9401|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9401|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9401|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9401|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9401|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9401|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9550|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9550|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9550|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9550|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9550|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9550|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9550|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9550|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9550|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9550|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9550|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9550|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9550|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9550|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9723|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9723|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9723|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9723|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9723|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9723|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9723|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9723|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9723|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9723|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9723|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9723|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9723|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9871|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9871|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9871|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9871|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9871|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9871|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9871|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9871|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9871|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9871|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9871|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:42.9871|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:43.0034|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:43.0034|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:43.0034|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:43.0034|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:43.0034|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:43.0034|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:43.0034|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:43.0034|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:43.0034|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:43.0034|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:43.0034|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:43.0034|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:43.0034|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:43.0034|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:43.0180|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:43.0180|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:43.0180|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:43.0180|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:43.0180|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:43.0180|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.WriteEthercatDeviceData|Writing mMode : "BAAAAA=="
+2024-04-19 15:47:43.0180|WARN|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel..ctor|Abort
+2024-04-19 15:47:43.0180|INFO|Motor Setting|FlexMold.MVVM.ViewModel.Setting.MotorSettingViewModel.LoadMotorSettingsDB|Starting to search motors from 
+2024-04-19 15:47:43.0180|INFO|CSVHelper|FlexMold.Utility.CSVHelper.ReadCSV_DoubleData|Reading CSV File testTriangleFrom10to110_19042024.csv
+2024-04-19 15:47:43.0389|INFO|CSVHelper|FlexMold.Utility.CSVHelper.ReadCSV_DoubleData|CSV data : [20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,50.0,50.0,50.0,50.0,50.0,50.0,50.0,50.0,60.0,60.0,60.0,60.0,60.0,60.0,60.0,60.0,70.0,70.0,70.0,70.0,70.0,70.0,70.0,70.0,80.0,80.0,80.0,80.0,80.0,80.0,80.0,80.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,110.0,110.0,110.0,110.0,110.0,110.0,110.0,110.0]
+2024-04-19 15:47:43.0389|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.StopProcess_WriteCSVData|Saving CSV/Motors data for Resume Process
+2024-04-19 15:47:43.0389|INFO|Project|FlexMold.MVVM.ViewModel.Project.ProjectViewModel.StopProcess_WriteCSVData|Saving CSV/Motors data for Resume Process, Completed!
+2024-04-19 15:47:43.0980|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.Client_AdsNotification|Readed mPosition : 8.114197
+2024-04-19 15:47:44.8524|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.GetSlaveMachineState|Writing ECAbExecute : 1
+2024-04-19 15:47:44.8524|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.GetSlaveMachineState|Readed ECAbError : false
+2024-04-19 15:47:44.8701|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.GetSlaveMachineState|Readed ECAdevStates : "CAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAA=="
+2024-04-19 15:47:44.8701|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.GetSlaveMachineState|Writing ECAbExecute : 0
+2024-04-19 15:47:47.8690|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.GetSlaveMachineState|Writing ECAbExecute : 1
+2024-04-19 15:47:47.8773|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.GetSlaveMachineState|Readed ECAbError : false
+2024-04-19 15:47:47.8773|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.GetSlaveMachineState|Readed ECAdevStates : "CAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAA=="
+2024-04-19 15:47:47.8773|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.GetSlaveMachineState|Writing ECAbExecute : 0
+2024-04-19 15:47:50.8804|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.GetSlaveMachineState|Writing ECAbExecute : 1
+2024-04-19 15:47:50.8804|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.GetSlaveMachineState|Readed ECAbError : false
+2024-04-19 15:47:50.8804|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.GetSlaveMachineState|Readed ECAdevStates : "CAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAA=="
+2024-04-19 15:47:50.8804|TRACE|TwinCat|FlexMold.Utility.TwinCathelper.GetSlaveMachineState|Writing ECAbExecute : 0
